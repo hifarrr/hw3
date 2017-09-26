@@ -1,0 +1,8 @@
+var lastMouseX = 0;
+var lastMouseY = 0;
+while(true) {
+  background(255);
+	colorMode(HSB)
+  fill(mouseX,20,100);
+  ellipse(lastmouseX=mouseX, lastMouseY= mouseY,30,30);
+}
