@@ -1,0 +1,14 @@
+background(255);
+var w=0;a=0;
+while(true){
+  background(255);
+  colorMode(HSB);
+  fill(200, 20, 100);
+  if (w<260){
+     w=w+20;
+  x=100+w;}
+  else{ 
+    var a=a-20;
+    x=100+280+a;}
+  ellipse(x, 100, 30, 30);
+}
